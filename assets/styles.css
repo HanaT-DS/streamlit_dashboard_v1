@@ -1,0 +1,668 @@
+/* ============================================
+   VARIABLES DE VOTRE CHARTE GRAPHIQUE
+   ============================================ */
+:root {
+    --text: #2b3d50;
+    --background: #ffffff;
+    --primary: #2b3d50;
+    --secondary: #ffd447;
+    --accent: #055e82;
+}
+
+/* ===== MASQUER LE MENU NATIF STREAMLIT ===== */
+/* Cache le sélecteur de pages par défaut */
+[data-testid="stSidebarNav"] {
+    display: none !important;
+}
+
+/* Cache aussi le titre "test1" qui apparaît */
+section[data-testid="stSidebar"] > div:first-child {
+    padding-top: 0 !important;
+}
+/* ============================================
+   TYPOGRAPHIE - POLICE INTER
+   ============================================ */
+
+/* Import de la police Inter depuis Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Application globale de la police */
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Taille de base */
+html {
+    font-size: 100%; /* 16px */
+    scroll-behavior: smooth;
+}
+
+/* Corps de texte - poids normal */
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/* Titres - poids bold */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+/* Hiérarchie des tailles de titres */
+h1 {
+    font-size: 4.210rem; /* 67.36px */
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    font-size: 3.158rem; /* 50.56px */
+    line-height: 1.3;
+    margin-bottom: 1.2rem;
+}
+
+h3 {
+    font-size: 2.369rem; /* 37.92px */
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.777rem; /* 28.48px */
+    line-height: 1.4;
+    margin-bottom: 0.8rem;
+}
+
+h5 {
+    font-size: 1.333rem; /* 21.28px */
+    line-height: 1.5;
+    margin-bottom: 0.6rem;
+}
+
+h6 {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+/* Petit texte */
+small, .small-text {
+    font-size: 0.750rem; /* 12px */
+}
+
+/* Paragraphes */
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Classes utilitaires pour les poids */
+.font-light {
+    font-weight: 300;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+/* ============================================
+   BOUTONS STREAMLIT NATIFS - PERSONNALISÉS
+   ============================================ */
+
+/* BOUTON PRINCIPAL */
+
+/* Tous les sélecteurs possibles selon la version */
+button[data-testid="baseButton-primary"],
+button[class*="stButton"],
+div[data-testid="stButton"] button,
+.stButton button,
+.row-widget.stButton button {
+    background: #055e82 !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 0.75rem 1.5rem !important;
+    font-weight: 600 !important;
+    font-family: 'Inter', sans-serif !important;
+    box-shadow: 0 4px 8px rgba(5, 94, 130, 0.25) !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Hover */
+button[data-testid="baseButton-primary"]:hover,
+button[class*="stButton"]:hover,
+div[data-testid="stButton"] button:hover,
+.stButton button:hover,
+.row-widget.stButton button:hover {
+    background: #ffd447 !important;
+    color: #2b3d50 !important;
+    transform: translateY(-3px) scale(1.05) !important;
+    box-shadow: 0 8px 16px rgba(255, 212, 71, 0.4) !important;
+}
+
+/* Active */
+button[data-testid="baseButton-primary"]:active,
+.stButton button:active {
+    transform: translateY(-1px) scale(1.02) !important;
+}
+
+/* Animation de pulse subtile au focus */
+.stButton > button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(5, 94, 130, 0.2);
+}
+
+.stButton > button[kind="secondary"]:focus {
+    box-shadow: 0 0 0 3px rgba(5, 94, 130, 0.15);
+}
+
+/* ============================================
+   TOOLTIPS SIMPLES
+   ============================================ */
+
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    background-color: #6b7280;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1000;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-size: 0.875rem;
+    white-space: nowrap;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    font-family: 'Inter', sans-serif;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Petite flèche pointant vers le bas */
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #6b7280 transparent transparent transparent;
+}
+
+
+/* ============================================
+   CARTES KPI PROFESSIONNELLES
+   ============================================ */
+/* ============================================
+   CARTES KPI GRADIENT - VERSION FINALE
+   ============================================ */
+
+.kpi-card-gradient {
+    background: linear-gradient(135deg, #055e82 0%, #2b3d50 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 16px !important;
+    padding: 1rem  !important;
+    box-shadow: 0 4px 20px rgba(5, 94, 130, 0.25) !important;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    position: relative !important;
+    overflow: hidden !important;
+
+
+    /* 🚀 Ajout pour uniformiser */
+    height: 150px !important;          /* même hauteur pour toutes */
+    display: flex !important;              /* active flexbox */
+    flex-direction: column !important;     /* contenu en colonne */
+    justify-content: space-between !important; /* espace entre haut et bas */
+}
+
+/* Effet de brillance au hover */
+.kpi-card-gradient::before {
+    content: "" !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: -100% !important;
+    width: 100% !important;
+    height: 100% !important;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent) !important;
+    transition: left 0.5s ease !important;
+}
+
+.kpi-card-gradient:hover::before {
+    left: 100% !important;
+}
+
+.kpi-card-gradient:hover {
+    background: linear-gradient(135deg, #ffd447 0%, #ffdd5f 100%) !important;
+    color: #2b3d50 !important;
+    transform: translateY(-8px) scale(1.02) !important;
+    box-shadow: 0 12px 32px rgba(255, 212, 71, 0.4) !important;
+}
+
+.kpi-card-gradient:hover .kpi-label,
+.kpi-card-gradient:hover .kpi-value,
+.kpi-card-gradient:hover .kpi-description {
+    color: #2b3d50 !important;
+}
+
+.kpi-card-gradient:hover .kpi-divider {
+    background: transparent !important;
+}
+
+.kpi-card-gradient .kpi-label {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-size: 0.875rem !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+    margin-bottom: 0.25rem !important;
+    text-align: center !important;
+}
+
+.kpi-card-gradient .kpi-value {
+    color: white !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    margin: 0.2 !important;
+    line-height: 1 !important;
+    text-align: center !important;
+}
+
+.kpi-card-gradient .kpi-divider {
+    background: transparent !important;
+    height: 1px !important;
+    margin: 0 0 !important;
+}
+
+.kpi-card-gradient .kpi-description {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 0.875rem !important;
+    margin-bottom: 0.2rem !important;
+    text-align: center !important;
+}
+
+/* Delta avec couleurs conditionnelles */
+.kpi-card-gradient .kpi-delta {
+    font-size: 0.875rem !important;
+    font-weight: 600 !important;
+    display: flex !important;                /* flex classique */
+    justify-content: center !important;      /* centre horizontalement */
+    align-items: center !important;
+    gap: 0.25rem !important;
+    padding: 0.4rem 0.75rem !important;
+    border-radius: 8px !important;
+    backdrop-filter: blur(10px) !important;
+    
+}
+
+.kpi-card-gradient .kpi-delta.positive {
+    background: rgba(16, 185, 129, 0.2) !important;
+    color: #10b981 !important;
+}
+
+.kpi-card-gradient:hover .kpi-delta.positive {
+    background: rgba(16, 185, 129, 0.15) !important;
+    color: #059669 !important;
+}
+
+.kpi-card-gradient .kpi-delta.negative {
+    background: rgba(239, 68, 68, 0.2) !important;
+    color: #ef4444 !important;
+}
+
+.kpi-card-gradient:hover .kpi-delta.negative {
+    background: rgba(239, 68, 68, 0.15) !important;
+    color: #dc2626 !important;
+}
+
+.kpi-card-gradient .kpi-delta.neutral {
+    background: rgba(156, 163, 175, 0.2) !important;
+    color: #9ca3af !important;
+}
+
+.kpi-card-gradient:hover .kpi-delta.neutral {
+    background: rgba(156, 163, 175, 0.15) !important;
+    color: #6b7280 !important;
+}
+
+
+
+/* ============================================
+   FILTRES ET INPUTS
+   ============================================ */
+
+/* Selectbox / Dropdown */
+.stSelectbox > div > div,
+div[data-baseweb="select"] > div {
+    border: 2px solid #e5e7eb !important;
+    border-radius: 10px !important;
+    background: white !important;
+    transition: all 0.3s ease !important;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.stSelectbox > div > div:hover,
+div[data-baseweb="select"] > div:hover {
+    border-color: #055e82 !important;
+    box-shadow: 0 0 0 3px rgba(5, 94, 130, 0.1) !important;
+}
+
+.stSelectbox > div > div:focus-within,
+div[data-baseweb="select"] > div:focus-within {
+    border-color: #055e82 !important;
+    box-shadow: 0 0 0 3px rgba(5, 94, 130, 0.15) !important;
+}
+
+/* Text Input */
+.stTextInput > div > div > input {
+    border: 2px solid #e5e7eb !important;
+    border-radius: 10px !important;
+    padding: 0.75rem 1rem !important;
+    font-size: 1rem !important;
+    font-family: 'Inter', sans-serif !important;
+    transition: all 0.3s ease !important;
+}
+
+.stTextInput > div > div > input:hover {
+    border-color: #055e82 !important;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: #055e82 !important;
+    box-shadow: 0 0 0 3px rgba(5, 94, 130, 0.15) !important;
+    outline: none !important;
+}
+
+/* Number Input */
+.stNumberInput > div > div > input {
+    border: 2px solid #e5e7eb !important;
+    border-radius: 10px !important;
+    padding: 0.75rem 1rem !important;
+    font-family: 'Inter', sans-serif !important;
+    transition: all 0.3s ease !important;
+}
+
+.stNumberInput > div > div > input:focus {
+    border-color: #055e82 !important;
+    box-shadow: 0 0 0 3px rgba(5, 94, 130, 0.15) !important;
+    outline: none !important;
+}
+
+/* Date Input */
+.stDateInput > div > div > input {
+    border: 2px solid #e5e7eb !important;
+    border-radius: 10px !important;
+    padding: 0.75rem 1rem !important;
+    font-family: 'Inter', sans-serif !important;
+    transition: all 0.3s ease !important;
+}
+
+.stDateInput > div > div > input:focus {
+    border-color: #055e82 !important;
+    box-shadow: 0 0 0 3px rgba(5, 94, 130, 0.15) !important;
+    outline: none !important;
+}
+
+/* Multiselect */
+.stMultiSelect > div > div {
+    border: 2px solid #e5e7eb !important;
+    border-radius: 10px !important;
+    transition: all 0.3s ease !important;
+}
+
+.stMultiSelect > div > div:hover {
+    border-color: #055e82 !important;
+}
+
+/* Tags dans multiselect */
+span[data-baseweb="tag"] {
+    background-color: #055e82 !important;
+    color: white !important;
+    border-radius: 6px !important;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+/* Slider */
+.stSlider > div > div > div > div {
+    background-color: #055e82 !important;
+}
+
+.stSlider [role="slider"] {
+    background-color: #055e82 !important;
+    border: 2px solid white !important;
+    box-shadow: 0 2px 8px rgba(5, 94, 130, 0.3) !important;
+}
+
+/* Checkbox */
+.stCheckbox {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.stCheckbox > label > div[role="checkbox"] {
+    border: 2px solid #e5e7eb !important;
+    border-radius: 4px !important;
+    transition: all 0.3s ease !important;
+}
+
+.stCheckbox > label > div[role="checkbox"]:hover {
+    border-color: #055e82 !important;
+}
+
+.stCheckbox > label > div[role="checkbox"][aria-checked="true"] {
+    background-color: #055e82 !important;
+    border-color: #055e82 !important;
+}
+
+/* Radio buttons */
+.stRadio > div {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.stRadio > div > label > div:first-child {
+    border: 2px solid #e5e7eb !important;
+    transition: all 0.3s ease !important;
+}
+
+.stRadio > div > label:hover > div:first-child {
+    border-color: #055e82 !important;
+}
+
+.stRadio > div > label > div:first-child[data-checked="true"] {
+    background-color: #055e82 !important;
+    border-color: #055e82 !important;
+}
+
+/* Labels */
+label {
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 600 !important;
+    color: #2b3d50 !important;
+    font-size: 0.875rem !important;
+}
+
+/* Container de filtres personnalisé */
+.filter-container {
+    background: #f8f9fb;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    margin: 1rem 0;
+}
+
+.filter-container h3 {
+    color: #2b3d50;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #ffd447;
+}
+
+
+/* ============================================
+   SIDEBAR (Streamlit 1.50.0)
+   ============================================ */
+
+
+
+/* Conteneur + fond + largeur */
+section[data-testid="stSidebar"] {
+    background: #edf1f5 !important; 
+    border-right: none !important;    /* supprime la bordure */
+    box-shadow:  4px 0 12px rgba(43, 61, 80, 0.15) !important;
+}
+
+
+/* Supprimer le padding en haut de toute la sidebar */
+section[data-testid="stSidebar"] > div:first-child {
+     padding: 0rem 1rem 1.5rem 1rem !important;
+}
+
+/* ===== LOGO SIDEBAR (FIXE ET PETIT) ===== */
+section[data-testid="stSidebar"] .sidebar-logo {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin:  0 !important;
+    padding: 0 !important;
+}
+
+section[data-testid="stSidebar"] .sidebar-logo img {
+    width: 35px !important;           /* Taille fixe */
+    height: auto !important;          /* Hauteur fixe */
+    max-width: 50px !important;       /* Empêche l'agrandissement */
+    min-width: 60px !important;       /* Empêche le rétrécissement */
+    object-fit: contain !important;   /* Garde les proportions */
+}
+
+
+
+/* Séparateurs */
+section[data-testid="stSidebar"] hr {
+    border: none !important;
+    height: 2px !important;
+    background: linear-gradient(90deg, transparent, #d1d5db, transparent) !important;
+    margin: 1rem 0 !important;
+    border-radius: 2px !important;
+}
+
+
+/* File uploader / Download button */
+/* ============================================
+   FILE UPLOADER (Sidebar)
+   ============================================ */
+section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] {
+    border: 2px dashed var(--accent) !important;   /* bleu pétrole de ta palette */
+    border-radius: 12px !important;
+    background: #f8f9fb !important;                /* gris clair, harmonisé avec sidebar */
+    color: var(--text) !important;
+    text-align: center !important;
+    padding: 1rem !important;
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Effet hover (plus engageant) */
+section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"]:hover {
+    border-color: var(--secondary) !important;     /* jaune vif */
+    background: #fffdf5 !important;                /* léger fond jaune pâle */
+    box-shadow: 0 4px 12px rgba(255, 212, 71, 0.25) !important;
+}
+
+/* Icône ou texte dans l’uploader */
+section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] div {
+    color: var(--text) !important;
+}
+
+/* ============================================
+   DOWNLOAD BUTTON (Sidebar)
+   ============================================ */
+section[data-testid="stSidebar"] a[download],
+section[data-testid="stSidebar"] button[kind="download"] {
+    background: linear-gradient(135deg, var(--accent) 0%, var(--primary) 100%) !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-weight: 600 !important;
+    font-size: 0.9rem !important;
+    box-shadow: 0 4px 10px rgba(5, 94, 130, 0.25) !important;
+    transition: all 0.3s ease !important;
+    width: 100% !important;  /* occupe toute la largeur sidebar */
+    text-align: center !important;
+}
+
+/* Hover */
+section[data-testid="stSidebar"] a[download]:hover,
+section[data-testid="stSidebar"] button[kind="download"]:hover {
+    background: linear-gradient(135deg, var(--secondary) 0%, #ffdd5f 100%) !important;
+    color: var(--text) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 16px rgba(255, 212, 71, 0.35) !important;
+}
+
+/* Active */
+section[data-testid="stSidebar"] a[download]:active,
+section[data-testid="stSidebar"] button[kind="download"]:active {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 3px 8px rgba(5, 94, 130, 0.25) !important;
+}
+
+
+/* Footer sticky (si tu ajoutes une div .sidebar-footer) */
+section[data-testid="stSidebar"] .sidebar-footer {
+    position: sticky !important;
+    bottom: 0 !important;
+    padding-top: 1rem !important;
+}
+
+
+/* ==================== RESPONSIVE DESIGN ==================== */
+@media (max-width: 768px) {
+    .kpi-card-gradient {
+        padding: 1.5rem !important;
+    }
+    
+    .kpi-card-gradient .kpi-value {
+        font-size: 2rem !important;
+    }
+    
+    .filter-container {
+        padding: 1rem;
+    }
+}
+
+/* Cacher le footer Streamlit */
+footer {
+    visibility: hidden;
+}
+

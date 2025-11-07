@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: streamlit_app:latest    
+    container_name: logistixup_app
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+      - /app/__pycache__
+    environment:
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ENABLEXSRFPROTECTION=false
+      - STREAMLIT_LOGGER_LEVEL=info
+    restart: unless-stopped
+    networks:
+      - logistixup_network
+
+networks:
+  logistixup_network:
+    driver: bridge

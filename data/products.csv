@@ -1,0 +1,501 @@
+product_id,product_name,category,base_price,fragility_class,theft_attractiveness_score,christmas_popularity_multiplier
+PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Fragile,9,2.1
+PROD000002,Smart LED TV 55 inches,Technologie,799.0,Fragile,8,2.4
+PROD000003,Bluetooth Speaker Waterproof,Technologie,129.99,Durable,7,2.0
+PROD000004,E-Reader (6 inch display),Divertissement et Culture,89.99,Fragile,6,1.8
+PROD000005,Yoga Mat High-Traction,Maison et Vie quotidienne,24.99,Durable,3,1.2
+PROD000006,Stainless Steel Chef Set,Maison et Vie quotidienne,149.99,Fragile,4,1.6
+PROD000007,Designer Winter Coat,Mode et Bien-être,259.5,Standard,5,1.9
+PROD000008,Running Shoes Pro,Mode et Bien-être,119.99,Durable,6,1.8
+PROD000009,Cordless Vacuum Cleaner,Maison et Vie quotidienne,199.99,Fragile,6,2.0
+PROD000010,Smartphone XYZ 128GB,Technologie,599.99,Fragile,9,2.8
+PROD000011,4K Action Camera,Loisirs et Transport,299.99,Fragile,7,2.2
+PROD000012,Bicycle Mountain Pro,Loisirs et Transport,540.0,Durable,5,1.7
+PROD000013,Car Mount Dashcam,Loisirs et Transport,89.99,Durable,6,1.9
+PROD000014,Espresso Machine,Maison et Vie quotidienne,299.0,Fragile,8,2.1
+PROD000015,Non-Stick Cookware Set,Maison et Vie quotidienne,89.99,Standard,4,1.5
+PROD000016,Gaming Keyboard RGB,Technologie,99.99,Durable,7,2.0
+PROD000017,Scented Candle Gift Pack,Divertissement et Culture,19.99,Standard,2,1.3
+PROD000018,Yoga Block and Strap Set,Loisirs et Transport,34.99,Durable,3,1.4
+PROD000019,Smart Home Speaker,Technologie,89.99,Fragile,6,1.9
+PROD000020,Electric Kettle 1.7L,Maison et Vie quotidienne,39.99,Durable,4,1.6
+B1-PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Durable,8,2.2
+B1-PROD000002,Smart LED TV 55 inches,Technologie,899.99,Fragile,7,2.0
+B1-PROD000003,Bluetooth Speaker Mini,Technologie,59.99,Standard,6,2.5
+B1-PROD000004,Yoga Mat Deluxe,Mode et Bien-être,29.99,Standard,5,1.6
+B1-PROD000005,Fitness Tracker Watch,Mode et Bien-être,149.99,Durable,7,2.1
+B1-PROD000006,Silk Evening Dress,Mode et Bien-être,189.99,Fragile,3,1.4
+B1-PROD000007,Leather Crossbody Bag,Mode et Bien-être,129.99,Fragile,6,1.8
+B1-PROD000008,Ceramic Dinnerware Set (16pc),Maison et Vie quotidienne,89.99,Fragile,4,1.8
+B1-PROD000009,Non-Stick Cookware Set,Maison et Vie quotidienne,119.99,Standard,4,1.5
+B1-PROD000010,Smart Home Speaker,Technologie,99.99,Durable,7,2.0
+B1-PROD000011,E-Reader Tablet,Divertissement et Culture,129.99,Standard,5,2.3
+B1-PROD000012,Bestselling Fantasy Novel,Divertissement et Culture,14.99,Standard,2,1.3
+B1-PROD000013,Acoustic Guitar,Divertissement et Culture,299.99,Fragile,5,2.0
+B1-PROD000014,Mountain Bicycle,Loisirs et Transport,999.99,Durable,6,1.9
+B1-PROD000015,Electric Scooter,Loisirs et Transport,349.99,Durable,7,2.2
+B1-PROD000016,Drone with Camera,Technologie,499.99,Fragile,8,2.6
+B1-PROD000017,Noise-Cancelling Gaming Headset,Technologie,149.99,Durable,6,2.1
+B1-PROD000018,Smartwatch Fitness Bundle,Technologie,199.99,Durable,7,2.4
+B1-PROD000019,Stainless Steel Cookware Set,Maison et Vie quotidienne,159.99,Fragile,3,1.7
+B1-PROD000020,Compact Portable Projector,Divertissement et Culture,219.99,Fragile,5,2.1
+B2-PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Durable,8,2.4
+B2-PROD000002,Smart LED TV 55 inches,Technologie,799.0,Fragile,7,2.8
+B2-PROD000003,Bluetooth Portable Speaker,Technologie,129.99,Standard,6,2.1
+B2-PROD000004,Yoga Mat Premium,Maison et Vie quotidienne,29.99,Durable,4,1.6
+B2-PROD000005,Stainless Steel Cookware Set,Maison et Vie quotidienne,149.99,Fragile,5,1.9
+B2-PROD000006,Espresso Coffee Maker,Maison et Vie quotidienne,89.99,Standard,6,1.9
+B2-PROD000007,Portrait Photography Book,Divertissement et Culture,24.99,Standard,3,1.4
+B2-PROD000008,Indie Rock Vinyl Record,Divertissement et Culture,14.99,Fragile,2,1.2
+B2-PROD000009,Smart Fitness Tracker,Technologie,99.99,Durable,7,2.0
+B2-PROD000010,Yoga Block Set,Mode et Bien-être,19.99,Durable,3,1.5
+B2-PROD000011,Designer Sunglasses,Mode et Bien-être,119.99,Fragile,6,2.3
+B2-PROD000012,Winter Knit Scarf,Mode et Bien-être,39.99,Standard,3,1.9
+B2-PROD000013,Electric Drill 600W,Loisirs et Transport,59.99,Durable,5,1.8
+B2-PROD000014,Road Bicycle 21 Speed,Loisirs et Transport,499.0,Durable,8,2.7
+B2-PROD000015,Electric Scooter,Loisirs et Transport,299.99,Durable,7,2.5
+B2-PROD000016,Smart Refrigerator 300L,Maison et Vie quotidienne,899.99,Fragile,6,2.2
+B2-PROD000017,Robot Vacuum Cleaner,Maison et Vie quotidienne,249.99,Durable,5,2.0
+B2-PROD000018,Resistance Bands Set,Mode et Bien-être,14.99,Standard,2,1.3
+B2-PROD000019,Kindle E-reader,Divertissement et Culture,89.99,Standard,6,2.1
+B2-PROD000020,Smart Home Assistant Speaker,Technologie,129.99,Fragile,6,2.2
+B3-PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Fragile,8,2.5
+B3-PROD000002,Smart LED TV 55 inches,Technologie,899.99,Fragile,9,2.4
+B3-PROD000003,Bluetooth Portable Speaker,Technologie,129.99,Durable,7,2.1
+B3-PROD000004,Noise-Isolating Wireless Earbuds,Technologie,149.0,Durable,8,2.2
+B3-PROD000005,Yoga Mat with alignment guide,Maison et Vie quotidienne,34.99,Standard,4,1.1
+B3-PROD000006,Smart Home Wi-Fi Plug Pack,Maison et Vie quotidienne,24.99,Durable,5,1.6
+B3-PROD000007,Stainless Steel Cookware Set,Maison et Vie quotidienne,99.99,Fragile,6,1.8
+B3-PROD000008,Ceramic Table Lamp,Maison et Vie quotidienne,49.99,Fragile,4,1.4
+B3-PROD000009,Smart Fitness Band,Mode et Bien-être,79.99,Durable,6,2.0
+B3-PROD000010,Athletic Running Shoes,Mode et Bien-être,120.0,Durable,5,1.9
+B3-PROD000011,Classic Wool Overcoat,Mode et Bien-être,199.0,Standard,3,1.4
+B3-PROD000012,Leather Handbag,Mode et Bien-être,210.0,Fragile,7,2.3
+B3-PROD000013,Gourmet Coffee Grinder,Loisirs et Transport,89.99,Fragile,5,1.7
+B3-PROD000014,Electric Bicycle Helmet,Loisirs et Transport,69.99,Durable,6,2.1
+B3-PROD000015,Rugged Mountain Bike Light,Loisirs et Transport,59.99,Durable,4,1.6
+B3-PROD000016,Drone with 4K Camera,Technologie,499.99,Fragile,9,2.7
+B3-PROD000017,3D Printing Pen,Divertissement et Culture,39.99,Standard,4,1.5
+B3-PROD000018,Steam-Punk Board Game,Divertissement et Culture,29.99,Standard,5,1.7
+B3-PROD000019,Edgy Graphic Novel Collection,Divertissement et Culture,74.99,Standard,4,1.6
+B3-PROD000020,Smart Refrigerator Camera,Technologie,299.99,Fragile,8,2.2
+PROD000001,Wireless Bluetooth Headphones,Technologie,99.99,Fragile,9,2.1
+PROD000002,4K Ultra HD Smart TV 55 inches,Technologie,799.99,Fragile,8,2.5
+PROD000003,Noise Cancelling Over-Ear Headphones,Technologie,199.99,Fragile,7,2.2
+PROD000004,Smart Home Speaker with Voice Assistant,Technologie,129.99,Standard,6,2.0
+PROD000005,Yoga Mat Non-Slip,Mode et Bien-être,29.99,Durable,4,1.5
+PROD000006,Athletic Running Shoes,Mode et Bien-être,89.99,Durable,5,1.8
+PROD000007,Winter Knit Sweater,Mode et Bien-être,59.99,Standard,3,1.7
+PROD000008,Stainless Steel Cookware Set,Maison et Vie quotidienne,149.99,Standard,3,1.6
+PROD000009,Ceramic Dinnerware Set (16pc),Maison et Vie quotidienne,89.99,Fragile,2,1.4
+PROD000010,Cordless Vacuum Cleaner,Maison et Vie quotidienne,199.99,Durable,6,2.0
+PROD000011,Smartphone 128GB,Technologie,699.99,Fragile,10,2.4
+PROD000012,E-reader with Backlight,Divertissement et Culture,119.99,Standard,4,1.6
+PROD000013,Bluetooth Portable Speaker,Divertissement et Culture,49.99,Standard,5,1.9
+PROD000014,Action Camera 4K,Loisirs et Transport,299.99,Fragile,6,2.3
+PROD000015,Smartwatch Series 8,Technologie,299.99,Fragile,8,2.3
+PROD000016,Digital Camera Kit,Technologie,549.99,Fragile,7,2.1
+PROD000017,Culinary Recipe Book Set,Divertissement et Culture,24.99,Standard,2,1.3
+PROD000018,Custom Photo Album,Divertissement et Culture,39.99,Standard,3,1.4
+PROD000019,Robot Vacuum Mop Pro,Maison et Vie quotidienne,299.99,Fragile,6,2.2
+PROD000020,Electric Toothbrush Pro,Maison et Vie quotidienne,69.99,Standard,3,1.7
+PROD000001,Wireless Noise-Canceling Earbuds,Technologie,129.99,Fragile,9,2.1
+PROD000002,4K Smart LED TV 55 inches,Technologie,799.99,Fragile,8,2.5
+PROD000003,Bluetooth Audio Speaker Waterproof,Technologie,149.99,Durable,7,2.0
+PROD000004,Smartphone Case Upgrade Pack,Technologie,19.99,Standard,6,1.8
+PROD000005,Compact Digital Camera,Technologie,299.99,Fragile,7,2.0
+PROD000006,E-Reader with Backlight,Divertissement et Culture,89.99,Standard,5,1.9
+PROD000007,Wireless Gaming Headset,Technologie,99.99,Durable,8,2.2
+PROD000008,Yoga Mat Non-Slip,Maison et Vie quotidienne,29.99,Durable,4,1.6
+PROD000009,Stainless Steel Cookware Set,Maison et Vie quotidienne,149.99,Fragile,3,1.7
+PROD000010,Smart Kitchen Scale,Maison et Vie quotidienne,39.99,Standard,4,1.8
+PROD000011,Electric Kettle 1.7L,Maison et Vie quotidienne,49.99,Durable,5,1.9
+PROD000012,Designer Handbag,Mode et Bien-être,199.99,Fragile,9,2.3
+PROD000013,Fitness Tracker Wristband,Mode et Bien-être,89.99,Durable,6,2.0
+PROD000014,Casual Sneakers,Mode et Bien-être,69.99,Standard,5,1.9
+PROD000015,Scented Soy Candles Gift Set,Divertissement et Culture,24.99,Fragile,3,1.8
+PROD000016,Board Game Strategy Edition,Divertissement et Culture,39.99,Standard,2,1.6
+PROD000017,Bicycle Helmet with Ventilation,Loisirs et Transport,59.99,Durable,7,1.9
+PROD000018,Electric Scooter Foldable,Loisirs et Transport,299.99,Durable,8,2.2
+PROD000019,Camping Lantern with USB,Loisirs et Transport,44.99,Durable,4,1.7
+PROD000020,Smart Home Assistant Speaker,Technologie,129.99,Fragile,8,2.4
+B6-PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Fragile,8,2.2
+B6-PROD000002,Smart LED TV 55 inches,Technologie,799.0,Fragile,9,2.5
+B6-PROD000003,Bluetooth Speaker UltraBass,Technologie,149.99,Durable,7,2.0
+B6-PROD000004,Noise-Cancelling Earbuds Pro,Technologie,129.99,Fragile,6,2.1
+B6-PROD000005,Compact Digital Camera,Technologie,299.99,Fragile,5,2.3
+B6-PROD000006,Yoga Mat Deluxe,Maison et Vie quotidienne,39.99,Standard,4,1.6
+B6-PROD000007,Espresso Coffee Maker,Maison et Vie quotidienne,89.99,Standard,3,1.8
+B6-PROD000008,Non-Stick Cookware Set,Maison et Vie quotidienne,59.99,Standard,4,1.7
+B6-PROD000009,Smart Home Hub,Technologie,119.99,Durable,6,2.0
+B6-PROD000010,Virtual Reality Headset,Technologie,349.99,Fragile,7,2.4
+B6-PROD000011,Desk Organizer Set,Maison et Vie quotidienne,24.99,Standard,2,1.5
+B6-PROD000012,Fitness Tracker Watch,Mode et Bien-être,99.99,Durable,8,2.0
+B6-PROD000013,Athletic Running Shoes,Mode et Bien-être,74.99,Durable,7,2.1
+B6-PROD000014,Yoga pants Essential,Mode et Bien-être,29.99,Standard,4,1.9
+B6-PROD000015,Scented Candle Set,Divertissement et Culture,19.99,Fragile,3,1.6
+B6-PROD000016,Classic Hardcover Novel,Divertissement et Culture,14.99,Standard,2,1.4
+B6-PROD000017,Board Game Strategy Deluxe,Divertissement et Culture,34.99,Standard,5,1.9
+B6-PROD000018,Electric Scooter,Loisirs et Transport,499.99,Durable,9,2.7
+B6-PROD000019,City Bicycle Helmet,Loisirs et Transport,89.99,Standard,6,2.0
+B6-PROD000020,Photography Backpack Pro,Loisirs et Transport,69.99,Durable,5,2.2
+PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Durable,8,2.1
+PROD000002,Smart LED 55 inch Television,Technologie,899.99,Fragile,7,2.3
+PROD000003,Portable Bluetooth Speaker,Technologie,129.0,Durable,6,2.0
+PROD000004,Fitness Smartwatch,Mode et Bien-être,199.0,Durable,5,2.6
+PROD000005,Yoga Mat Non-Slip,Maison et Vie quotidienne,24.99,Standard,4,1.2
+PROD000006,Stainless Steel Cookware Set,Maison et Vie quotidienne,89.5,Fragile,3,1.3
+PROD000007,Ceramic Dinnerware Set (16 pcs),Maison et Vie quotidienne,59.99,Fragile,4,1.4
+PROD000008,Crystal Wine Glasses (6),Divertissement et Culture,39.99,Extremely_Fragile,7,2.2
+PROD000009,Hardcover Mystery Novel,Divertissement et Culture,14.99,Standard,2,1.0
+PROD000010,Classic Board Game Collection,Loisirs et Transport,29.99,Standard,3,1.5
+PROD000011,Electric Scooter S1,Loisirs et Transport,399.0,Fragile,6,2.2
+PROD000012,Ballet Flats Pack,Mode et Bien-être,49.0,Standard,3,1.8
+PROD000013,Soft Cashmere Scarf,Mode et Bien-être,89.0,Standard,4,2.0
+PROD000014,Instant Camera,Divertissement et Culture,120.0,Fragile,5,2.3
+PROD000015,Noise-Isolating Earbuds,Technologie,59.99,Durable,6,2.1
+PROD000016,Smart Home Speaker,Technologie,149.99,Durable,5,2.0
+PROD000017,Cookbook: Global Flavors,Divertissement et Culture,25.0,Standard,2,1.1
+PROD000018,Herbal Tea Assortment,Maison et Vie quotidienne,12.5,Standard,2,1.0
+PROD000019,Yoga Resistance Bands Set,Mode et Bien-être,18.99,Durable,3,1.6
+PROD000020,Mountain Bike Helmet,Loisirs et Transport,79.99,Durable,4,1.7
+B8-PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Fragile,9,2.4
+B8-PROD000002,Smart LED TV 55 inches,Technologie,899.99,Fragile,8,2.3
+B8-PROD000003,Bluetooth Speaker Waterproof,Technologie,129.5,Durable,7,1.9
+B8-PROD000004,Yoga Mat Premium,Maison et Vie quotidienne,29.99,Durable,3,1.2
+B8-PROD000005,Stainless Steel Cookware Set 10pc,Maison et Vie quotidienne,89.0,Fragile,4,1.3
+B8-PROD000006,Ceramic Dinnerware Set 16pc,Maison et Vie quotidienne,59.99,Fragile,5,1.4
+B8-PROD000007,Electric Kettle 1.7L,Maison et Vie quotidienne,24.99,Standard,3,1.1
+B8-PROD000008,Smart Fitness Tracker,Technologie,149.0,Standard,6,2.0
+B8-PROD000009,Winter Knit Hoodie,Mode et Bien-être,54.5,Standard,2,1.6
+B8-PROD000010,Cozy Plush Bathrobe,Mode et Bien-être,39.99,Standard,3,1.5
+B8-PROD000011,Running Shoes Nimbus Lite,Mode et Bien-être,120.0,Durable,5,2.1
+B8-PROD000012,Ballet Flats Comfort+,Mode et Bien-être,49.99,Standard,3,1.6
+B8-PROD000013,Smartphone X19 Pro,Technologie,799.99,Fragile,9,2.5
+B8-PROD000014,Noise-Canceling Earbuds,Technologie,119.99,Fragile,7,2.2
+B8-PROD000015,4K Action Camera,Loisirs et Transport,299.0,Standard,6,2.3
+B8-PROD000016,Bicycle Helmet Pro,Loisirs et Transport,59.99,Durable,4,1.5
+B8-PROD000017,Electric Scooter Kids,Loisirs et Transport,399.0,Durable,6,2.0
+B8-PROD000018,DIY Power Drill 20V,Maison et Vie quotidienne,89.99,Durable,4,1.7
+B8-PROD000019,Designer Handbag,Mode et Bien-être,310.0,Fragile,8,2.4
+B8-PROD000020,Smart Home Speaker System,Technologie,199.0,Standard,6,2.1
+PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Fragile,9,2.4
+PROD000002,Smart LED TV 55 inches,Technologie,799.0,Fragile,8,2.8
+PROD000003,Bluetooth Speaker Mini,Technologie,49.99,Durable,6,2.0
+PROD000004,Yoga Mat Premium,Mode et Bien-être,29.99,Durable,4,1.6
+PROD000005,Smart Fitness Watch,Technologie,199.99,Fragile,7,2.5
+PROD000006,Organic Cotton Hoodie,Mode et Bien-être,59.99,Standard,3,1.8
+PROD000007,Designer Handbag,Mode et Bien-être,350.0,Fragile,8,2.7
+PROD000008,Ceramic Dinner Set 16pc,Maison et Vie quotidienne,89.99,Fragile,5,1.9
+PROD000009,Non-stick Cookware Set,Maison et Vie quotidienne,120.0,Standard,4,1.5
+PROD000010,Espresso Machine Deluxe,Maison et Vie quotidienne,299.99,Fragile,6,2.6
+PROD000011,Smartphone XYZ 128GB,Technologie,899.0,Fragile,10,2.9
+PROD000012,Digital Camera Compact,Technologie,449.0,Fragile,6,2.1
+PROD000013,Sustainable Bamboo Desk Lamp,Maison et Vie quotidienne,39.99,Standard,3,1.7
+PROD000014,Noise-Reduction Gaming Headset,Technologie,149.99,Fragile,7,2.3
+PROD000015,Classic Hardcover Novel Bundle,Divertissement et Culture,24.99,Standard,2,1.4
+PROD000016,Smart Home Assistant Speaker,Technologie,99.99,Durable,5,2.0
+PROD000017,Electric Toothbrush Pro,Maison et Vie quotidienne,69.99,Durable,4,1.7
+PROD000018,Electric Kettle XL,Maison et Vie quotidienne,34.99,Standard,3,1.6
+PROD000019,Running Shoes Elite,Loisirs et Transport,120.0,Durable,6,2.2
+PROD000020,Bicycle Helmet Pro,Loisirs et Transport,89.0,Durable,4,1.9
+B10-PROD000001,Wireless Noise-Cancelling Headphones,Technologie,149.99,Fragile,9,2.4
+B10-PROD000002,Smart LED TV 55 inches,Technologie,799.0,Fragile,8,2.6
+B10-PROD000003,Bluetooth Speaker Mini,Technologie,59.99,Standard,6,1.9
+B10-PROD000004,E-Reader with Front Light,Divertissement et Culture,119.0,Fragile,7,1.8
+B10-PROD000005,Smartphone Case Set,Mode et Bien-être,24.99,Standard,5,1.6
+B10-PROD000006,Yoga Mat Non-Slip,Maison et Vie quotidienne,29.99,Durable,4,1.5
+B10-PROD000007,Stainless Steel Cookware Set,Maison et Vie quotidienne,199.99,Durable,3,1.8
+B10-PROD000008,Designer Silk Scarf,Mode et Bien-être,89.5,Fragile,6,2.0
+B10-PROD000009,Running Shoes Pro,Mode et Bien-être,129.99,Durable,7,1.9
+B10-PROD000010,Bicycle Helmet with MIPS,Loisirs et Transport,79.99,Durable,5,1.7
+B10-PROD000011,Electric Kettle 1.7L,Maison et Vie quotidienne,39.99,Standard,4,1.3
+B10-PROD000012,Smartwatch Series 9,Technologie,299.99,Fragile,8,2.5
+B10-PROD000013,Noise-Isolating Earbuds,Technologie,79.99,Fragile,8,2.2
+B10-PROD000014,Cold Brew Coffee Maker,Maison et Vie quotidienne,149.99,Standard,4,1.5
+B10-PROD000015,Bluetooth Car Adapter,Loisirs et Transport,24.99,Standard,3,1.4
+B10-PROD000016,Smart Home Hub,Technologie,129.0,Durable,7,2.1
+B10-PROD000017,Yoga Block Set,Maison et Vie quotidienne,14.99,Durable,3,1.6
+B10-PROD000018,Gardening Tool Kit,Maison et Vie quotidienne,34.99,Durable,4,1.5
+B10-PROD000019,Casual Denim Jacket,Mode et Bien-être,59.99,Standard,6,2.0
+B10-PROD000020,Compact Action Camera,Technologie,219.0,Fragile,7,2.3
+PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Fragile,9,2.2
+PROD000002,Smart LED TV 55 inches,Technologie,899.99,Fragile,8,2.6
+PROD000003,Espresso Coffee Maker with Grinder,Maison et Vie quotidienne,149.99,Standard,6,1.8
+PROD000004,Stainless Steel Cookware Set 10pc,Maison et Vie quotidienne,129.99,Durable,4,1.6
+PROD000005,Yoga Mat with Non-Slip Surface,Mode et Bien-être,29.99,Durable,3,1.2
+PROD000006,Smart Fitness Band,Technologie,89.99,Fragile,7,1.9
+PROD000007,Graphic Novel Collection Box Set,Divertissement et Culture,59.99,Standard,5,1.4
+PROD000008,Bluetooth Portable Speaker,Technologie,64.99,Durable,6,2.0
+PROD000009,Casual Sneakers,Mode et Bien-être,74.99,Standard,4,1.3
+PROD000010,Leather Messenger Bag,Mode et Bien-être,149.99,Fragile,5,1.7
+PROD000011,Electric Toothbrush Pro,Maison et Vie quotidienne,39.99,Standard,3,1.5
+PROD000012,Premium Gym Rope Cable,Loisirs et Transport,19.99,Durable,2,1.1
+PROD000013,Drone with HD Camera,Technologie,299.99,Fragile,8,2.8
+PROD000014,Smart Home Assistant Speaker,Technologie,99.99,Standard,6,2.1
+PROD000015,Electric Kettle with Temperature Control,Maison et Vie quotidienne,49.99,Standard,4,1.5
+PROD000016,Winter Wool Coat,Mode et Bien-être,199.99,Standard,2,1.6
+PROD000017,Ballet Flat Shoes - Classic,Mode et Bien-être,59.99,Fragile,3,1.3
+PROD000018,Action Camera Accessory Kit,Loisirs et Transport,24.99,Durable,4,1.4
+PROD000019,Compact USB-C Hub,Technologie,34.99,Durable,5,1.7
+PROD000020,Noise-Isolating Wireless Earbuds,Technologie,129.99,Fragile,8,2.3
+PROD000001,Wireless Noise-Canceling Headphones,Technologie,199.99,Durable,8,2.2
+PROD000002,Smart LED TV 55 inches,Technologie,799.99,Fragile,7,2.8
+PROD000003,Bluetooth Speaker Portable,Technologie,59.99,Standard,6,1.9
+PROD000004,Ergonomic Office Chair,Maison et Vie quotidienne,149.99,Durable,5,1.6
+PROD000005,Smart Kitchen Mixer,Maison et Vie quotidienne,329.99,Fragile,4,2.1
+PROD000006,Stainless Steel Cookware Set,Maison et Vie quotidienne,199.99,Standard,3,1.8
+PROD000007,Yoga Mat Pro,Mode et Bien-être,39.99,Durable,2,1.4
+PROD000008,Athletic Sneakers,Mode et Bien-être,89.99,Durable,4,1.9
+PROD000009,Designer Handbag,Mode et Bien-être,350.0,Fragile,9,2.5
+PROD000010,Smartwatch Series 9,Technologie,299.99,Fragile,8,2.7
+PROD000011,Digital Photo Frame,Divertissement et Culture,79.99,Standard,5,1.6
+PROD000012,Electric Guitar Starter Pack,Divertissement et Culture,199.99,Fragile,6,2.0
+PROD000013,VR Headset,Technologie,449.99,Fragile,7,2.4
+PROD000014,LED Desk Lamp,Maison et Vie quotidienne,24.99,Standard,3,1.5
+PROD000015,Power Drill 20V,Loisirs et Transport,119.99,Durable,4,1.8
+PROD000016,Electric Scooter,Loisirs et Transport,499.99,Durable,8,2.3
+PROD000017,Ballet Flats,Mode et Bien-être,49.99,Standard,3,1.7
+PROD000018,Fragrance Set Gift Box,Divertissement et Culture,34.99,Standard,2,1.6
+PROD000019,Robot Vacuum Cleaner,Maison et Vie quotidienne,299.99,Fragile,7,2.6
+PROD000020,Noise-Cancelling Earbuds,Technologie,129.99,Fragile,6,2.0
+B13-PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Durable,8,2.5
+B13-PROD000002,Smart LED TV 55 inches,Technologie,799.99,Fragile,7,2.2
+B13-PROD000003,Bluetooth Portable Speaker,Technologie,129.99,Durable,6,2.0
+B13-PROD000004,"E-reader GlowLight 6""",Divertissement et Culture,119.99,Durable,5,2.1
+B13-PROD000005,Smartphone Case with Stand,Technologie,15.99,Standard,6,1.8
+B13-PROD000006,Yoga Mat ProGrip 6mm,Mode et Bien-être,39.99,Durable,4,1.9
+B13-PROD000007,Designer Sunglasses Aluminum Frame,Mode et Bien-être,89.99,Fragile,7,1.7
+B13-PROD000008,Herbal Tea Gift Set,Divertissement et Culture,24.99,Standard,3,1.5
+B13-PROD000009,Cosy Knit Hoodie,Mode et Bien-être,59.99,Standard,5,1.8
+B13-PROD000010,Stainless Steel Cookware Set 10pc,Maison et Vie quotidienne,129.99,Fragile,6,1.8
+B13-PROD000011,Ceramic Dinnerware Set 16pc,Maison et Vie quotidienne,74.99,Fragile,5,1.6
+B13-PROD000012,Espresso Coffee Maker,Maison et Vie quotidienne,199.99,Fragile,6,2.0
+B13-PROD000013,Fitness Smartwatch Series 5,Technologie,249.99,Fragile,8,2.2
+B13-PROD000014,Bicycle Helmet ProSafe,Loisirs et Transport,49.99,Durable,4,1.6
+B13-PROD000015,Electric Scooter Mini,Loisirs et Transport,399.99,Fragile,9,2.4
+B13-PROD000016,Folding Treadmill,Maison et Vie quotidienne,499.99,Fragile,6,2.0
+B13-PROD000017,Noise-Isolating Earbuds,Technologie,59.99,Standard,6,2.0
+B13-PROD000018,Electric Kettle with Temperature Control,Maison et Vie quotidienne,89.99,Standard,5,1.6
+B13-PROD000019,Leather Journal A5,Divertissement et Culture,14.99,Standard,2,1.5
+B13-PROD000020,Cotton Bath Towel Set,Maison et Vie quotidienne,29.99,Standard,3,1.5
+PROD000001,Wireless Noise-Canceling Headphones,Technologie,149.99,Fragile,9,2.1
+PROD000002,4K Ultra HD Smart TV 55 inches,Technologie,799.99,Fragile,8,2.5
+PROD000003,Smartphone 128GB,Technologie,699.0,Extremely_Fragile,10,2.8
+PROD000004,Bluetooth Speaker Portable,Technologie,59.99,Standard,6,2.0
+PROD000005,Noise-Cancelling Earbuds,Technologie,129.0,Standard,8,2.2
+PROD000006,Yoga Mat Premium,Maison et Vie quotidienne,29.99,Durable,4,1.8
+PROD000007,Ergonomic Office Chair,Maison et Vie quotidienne,199.0,Standard,5,1.9
+PROD000008,Stainless Steel Cookware Set,Maison et Vie quotidienne,89.99,Fragile,4,1.6
+PROD000009,Ceramic Dining Set (4),Maison et Vie quotidienne,119.0,Fragile,5,1.9
+PROD000010,Cotton Bath Towels 6-pack,Maison et Vie quotidienne,24.99,Durable,3,1.5
+PROD000011,Smart Fitness Watch,Mode et Bien-être,199.0,Durable,7,2.1
+PROD000012,Running Shoes Ultra Lite,Mode et Bien-être,89.0,Standard,6,1.8
+PROD000013,Yoga Pants Performance,Mode et Bien-être,39.99,Standard,4,1.7
+PROD000014,Smart Leather Wallet,Mode et Bien-être,69.0,Fragile,5,2.0
+PROD000015,Electric Toothbrush Pro,Technologie,89.0,Durable,6,2.0
+PROD000016,Electric Kettle 1.5L,Maison et Vie quotidienne,29.0,Durable,4,1.6
+PROD000017,Non-stick Frypan 26cm,Maison et Vie quotidienne,24.99,Standard,3,1.5
+PROD000018,Ceramic Vase,Divertissement et Culture,34.0,Fragile,4,1.7
+PROD000019,Gourmet Coffee Table Book,Divertissement et Culture,24.5,Standard,2,1.6
+PROD000020,Vinyl Record Player,Divertissement et Culture,149.0,Durable,6,2.2
+B15-PROD000001,Wireless Headphones,Technologie,199.99,Fragile,9,2.4
+B15-PROD000002,Smart LED TV 55 inches,Technologie,699.99,Fragile,8,2.8
+B15-PROD000003,4K Action Camera,Technologie,329.0,Durable,7,2.2
+B15-PROD000004,Yoga Mat,Maison et Vie quotidienne,29.99,Durable,3,1.6
+B15-PROD000005,Stainless Steel Cookware Set,Maison et Vie quotidienne,89.95,Fragile,4,1.8
+B15-PROD000006,Designer Sunglasses,Mode et Bien-être,120.0,Fragile,6,2.1
+B15-PROD000007,Winter Coat with Insulation,Mode et Bien-être,210.0,Durable,5,1.9
+B15-PROD000008,Fitness Tracker Watch,Technologie,149.99,Durable,6,2.3
+B15-PROD000009,Noise-Cancelling Earbuds,Technologie,89.99,Fragile,7,2.5
+B15-PROD000010,Electric Kettle,Maison et Vie quotidienne,24.99,Standard,2,1.4
+B15-PROD000011,Robot Vacuum Cleaner,Maison et Vie quotidienne,299.99,Fragile,6,2.6
+B15-PROD000012,Smartphone Case Kit,Divertissement et Culture,14.99,Durable,4,1.7
+B15-PROD000013,Bilingual Travel Guide Hardcover,Divertissement et Culture,24.99,Standard,3,1.5
+B15-PROD000014,Board Game Strategy Edition,Divertissement et Culture,39.99,Standard,4,1.8
+B15-PROD000015,Electric Bicycle Helmet,Loisirs et Transport,89.0,Durable,5,2.0
+B15-PROD000016,Road Cycling Shoes,Loisirs et Transport,120.0,Durable,4,1.9
+B15-PROD000017,Smart Home Assistant Speaker,Technologie,99.0,Standard,5,2.2
+B15-PROD000018,Ergonomic Office Chair,Maison et Vie quotidienne,199.0,Standard,3,1.6
+B15-PROD000019,Yoga Block Set,Mode et Bien-être,19.99,Standard,2,1.5
+B15-PROD000020,Casual Knit Sweater,Mode et Bien-être,59.0,Standard,3,1.8
+PROD000001,Wireless Noise-Cancelling Headphones,Technologie,129.99,Durable,8,2.1
+PROD000002,Smart LED TV 55 inches,Technologie,899.99,Fragile,7,2.5
+PROD000003,4K Action Camera,Technologie,399.99,Durable,6,2.2
+PROD000004,Bluetooth Portable Speaker,Technologie,59.99,Durable,6,2.0
+PROD000005,Yoga Mat with Grid,Mode et Bien-être,29.99,Standard,4,1.6
+PROD000006,Smart Fitness Band,Mode et Bien-être,99.99,Durable,7,2.2
+PROD000007,Silicone Kitchen Knife Set,Maison et Vie quotidienne,24.99,Fragile,5,1.4
+PROD000008,Stainless Steel Cookware Pot Set,Maison et Vie quotidienne,89.99,Fragile,6,1.7
+PROD000009,Elegant Crystal Vase,Maison et Vie quotidienne,39.99,Extremely_Fragile,9,1.9
+PROD000010,Designer Cashmere Scarf,Mode et Bien-être,120.0,Standard,5,2.3
+PROD000011,Running Shoes Pro,Mode et Bien-être,79.99,Durable,6,2.0
+PROD000012,Casual Sneakers,Mode et Bien-être,59.99,Durable,5,1.9
+PROD000013,Children's Toy Car,Loisirs et Transport,24.99,Standard,6,2.2
+PROD000014,Bicycle Helmet,Loisirs et Transport,34.99,Durable,4,1.8
+PROD000015,Kayak Paddle,Loisirs et Transport,59.99,Durable,5,1.7
+PROD000016,Digital Photo Album,Divertissement et Culture,18.99,Standard,3,1.2
+PROD000017,Classic Novel Collector's Edition,Divertissement et Culture,24.99,Standard,2,1.3
+PROD000018,Smart Home Speaker,Technologie,149.99,Durable,7,2.4
+PROD000019,VR Headset,Technologie,399.99,Fragile,8,2.6
+PROD000020,Espresso Coffee Maker,Maison et Vie quotidienne,199.99,Fragile,6,1.9
+B17-PROD000001,Wireless Noise-Canceling Headphones,Technologie,199.99,Fragile,9,2.4
+B17-PROD000002,Smart LED TV 55 inches,Technologie,899.99,Fragile,8,2.2
+B17-PROD000003,Bluetooth Portable Speaker,Technologie,129.99,Durable,7,2.0
+B17-PROD000004,Stainless Steel Cookware Set 10pc,Maison et Vie quotidienne,149.99,Fragile,6,1.9
+B17-PROD000005,Non-Stick Frying Pan,Maison et Vie quotidienne,29.99,Durable,5,1.6
+B17-PROD000006,Ergonomic Office Chair,Maison et Vie quotidienne,199.0,Standard,4,1.5
+B17-PROD000007,Smart Fitness Watch,Mode et Bien-être,149.99,Durable,7,2.1
+B17-PROD000008,Yoga Mat Non-Slip,Mode et Bien-être,34.99,Durable,3,1.3
+B17-PROD000009,Designer Sunglasses,Mode et Bien-être,89.99,Fragile,6,1.9
+B17-PROD000010,Leather Handbag,Mode et Bien-être,210.0,Fragile,8,2.2
+B17-PROD000011,Ballet Shoes Pack,Divertissement et Culture,59.99,Standard,4,1.6
+B17-PROD000012,Deluxe Photo Book,Divertissement et Culture,24.99,Standard,2,1.3
+B17-PROD000013,Indie Rock Vinyl Set,Divertissement et Culture,39.99,Standard,4,1.7
+B17-PROD000014,Drone with 4K Camera,Technologie,499.99,Fragile,9,2.5
+B17-PROD000015,Smart Home Speaker,Technologie,99.99,Durable,6,2.0
+B17-PROD000016,Electric Kettle Stainless,Maison et Vie quotidienne,59.99,Fragile,5,1.6
+B17-PROD000017,Ceramic Vase,Divertissement et Culture,19.99,Fragile,3,1.4
+B17-PROD000018,2-Person Tent,Loisirs et Transport,89.99,Standard,4,1.5
+B17-PROD000019,Electric Bicycle Helmet,Loisirs et Transport,79.99,Durable,5,1.8
+B17-PROD000020,Portable Gaming Console,Technologie,299.99,Fragile,7,2.3
+B18-PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Durable,8,2.5
+B18-PROD000002,Smart LED TV 55 inches,Technologie,899.99,Fragile,7,2.4
+B18-PROD000003,Bluetooth Speaker Mini,Technologie,59.99,Standard,6,2.2
+B18-PROD000004,Yoga Mat Pro,Mode et Bien-être,29.99,Durable,4,1.9
+B18-PROD000005,Running Shoes Glide+,Mode et Bien-être,89.99,Durable,5,2.0
+B18-PROD000006,Leather Wallet Slim,Mode et Bien-être,39.99,Standard,6,1.8
+B18-PROD000007,Smartphone X2 128GB,Technologie,499.99,Fragile,9,2.8
+B18-PROD000008,E-Reader Light,Technologie,119.99,Durable,5,2.1
+B18-PROD000009,Espresso Coffee Machine,Maison et Vie quotidienne,149.99,Fragile,4,1.7
+B18-PROD000010,Robot Vacuum Cleaner,Maison et Vie quotidienne,299.99,Durable,6,2.3
+B18-PROD000011,Ceramic Gift Set,Divertissement et Culture,24.99,Fragile,3,1.6
+B18-PROD000012,Grammophone Record Collection,Divertissement et Culture,59.99,Fragile,3,1.7
+B18-PROD000013,Yoga Block Set,Mode et Bien-être,19.99,Durable,3,1.8
+B18-PROD000014,Bicycle Helmet Pro,Loisirs et Transport,49.99,Durable,4,2.0
+B18-PROD000015,Electric Scooter Mini,Loisirs et Transport,399.99,Fragile,7,2.5
+B18-PROD000016,Smart Fitness Tracker,Mode et Bien-être,129.99,Durable,6,2.2
+B18-PROD000017,Digital Camera Snap IX,Technologie,549.99,Fragile,8,2.6
+B18-PROD000018,Ceramic Kitchen Set,Maison et Vie quotidienne,89.99,Fragile,4,1.9
+B18-PROD000019,Denim Jacket Studio,Mode et Bien-être,69.99,Standard,5,1.8
+B18-PROD000020,Flight Case Luggage,Loisirs et Transport,119.99,Standard,7,2.1
+PROD000001,Wireless Noise-Cancelling Headphones,Technologie,179.99,Durable,9,2.1
+PROD000002,Smart LED TV 55 inches,Technologie,899.0,Fragile,7,2.5
+PROD000003,Bluetooth Speaker Small Portable,Technologie,129.99,Durable,6,2.2
+PROD000004,Fitness Smartwatch,Mode et Bien-être,199.99,Durable,8,2.0
+PROD000005,Yoga Mat Premium,Maison et Vie quotidienne,39.99,Standard,3,1.7
+PROD000006,Cookware Set Stainless Steel 10pc,Maison et Vie quotidienne,149.99,Fragile,4,1.9
+PROD000007,Ceramic Vase Elegant 40cm,Divertissement et Culture,59.99,Fragile,5,2.0
+PROD000008,Designer Sunglasses SPF 50,Mode et Bien-être,89.99,Standard,4,1.8
+PROD000009,Leather Journal Notebook,Divertissement et Culture,24.99,Durable,2,1.6
+PROD000010,Winter Knit Scarf,Mode et Bien-être,34.99,Standard,2,1.8
+PROD000011,Electric Kettle 1.7L,Maison et Vie quotidienne,29.99,Durable,3,1.6
+PROD000012,Robot Vacuum Cleaner,Technologie,299.99,Fragile,6,2.3
+PROD000013,Action Camera 4K,Loisirs et Transport,199.99,Fragile,7,2.1
+PROD000014,Electric Bike Foldable,Loisirs et Transport,999.0,Durable,8,2.2
+PROD000015,Board Game Strategy Deluxe,Divertissement et Culture,59.95,Standard,3,1.8
+PROD000016,Smart Home Hub with Assistant,Technologie,149.99,Fragile,6,2.4
+PROD000017,Noise-Isolating Wireless Earbuds,Technologie,99.99,Durable,6,2.0
+PROD000018,Fashionable Wool Coat,Mode et Bien-être,199.99,Standard,5,1.9
+PROD000019,Ceramic Dinnerware Set 16pc,Maison et Vie quotidienne,69.99,Fragile,4,1.7
+PROD000020,Notebook Premium Leather Case,Divertissement et Culture,14.99,Standard,2,1.5
+PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Fragile,9,2.4
+PROD000002,4K Ultra HD Smart TV 55 inches,Technologie,799.99,Fragile,8,2.6
+PROD000003,Smartphone 128GB,Technologie,699.0,Fragile,10,2.5
+PROD000004,Wireless Bluetooth Speaker,Technologie,89.99,Durable,6,2.1
+PROD000005,Yoga Mat Non-Slip,Maison et Vie quotidienne,29.99,Durable,3,1.8
+PROD000006,Stainless Steel Cookware Set 10pc,Maison et Vie quotidienne,149.99,Standard,5,1.9
+PROD000007,Ceramic Dinnerware Set 16pc,Maison et Vie quotidienne,69.99,Fragile,4,1.7
+PROD000008,Leather Messenger Bag,Mode et Bien-être,119.0,Standard,7,1.9
+PROD000009,Running Shoes Pro,Mode et Bien-être,99.99,Durable,6,2.0
+PROD000010,Sudoku Puzzle Book Set,Divertissement et Culture,14.99,Standard,2,1.3
+PROD000011,Guitar Starter Pack,Divertissement et Culture,149.99,Fragile,5,1.8
+PROD000012,Wireless Earbuds,Technologie,129.99,Durable,9,2.2
+PROD000013,Smart LED Desk Lamp,Maison et Vie quotidienne,39.99,Durable,3,1.6
+PROD000014,Coffee Grinder Electric,Maison et Vie quotidienne,59.99,Durable,4,1.7
+PROD000015,Fitness Tracker,Technologie,99.0,Durable,6,2.0
+PROD000016,Electric Toothbrush Pro,Maison et Vie quotidienne,59.99,Fragile,4,1.8
+PROD000017,Luxury Silk Scarf,Mode et Bien-être,129.0,Fragile,8,2.2
+PROD000018,Bike Helmet Advanced,Loisirs et Transport,89.99,Durable,7,2.0
+PROD000019,Electric Kettle 1.7L,Maison et Vie quotidienne,34.99,Durable,3,1.5
+PROD000020,Smartwatch Series 5,Technologie,249.99,Fragile,9,2.7
+B21-PROD000101,Wireless Noise-Cancelling Headphones,Technologie,199.99,Fragile,9,2.2
+B21-PROD000102,Smart LED TV 55 inches,Technologie,799.99,Fragile,8,2.5
+B21-PROD000103,Smartphone Pro 128GB,Technologie,999.0,Fragile,10,2.9
+B21-PROD000104,Bluetooth Speaker Round Sound,Technologie,59.99,Durable,6,1.9
+B21-PROD000105,Digital Photo Album,Divertissement et Culture,24.5,Standard,3,1.2
+B21-PROD000106,Yoga Mat Non-Slip,Maison et Vie quotidienne,29.99,Durable,4,1.3
+B21-PROD000107,Smart Fitness Tracker,Mode et Bien-être,149.0,Durable,7,2.0
+B21-PROD000108,Winter Running Jacket,Mode et Bien-être,89.99,Durable,5,1.7
+B21-PROD000109,Casual Cotton T-Shirt Pack,Mode et Bien-être,25.0,Standard,3,1.1
+B21-PROD000110,Ceramic Dining Set 4pc,Maison et Vie quotidienne,120.0,Fragile,6,1.8
+B21-PROD000111,Stainless Steel Cookware Set,Maison et Vie quotidienne,199.0,Fragile,5,1.9
+B21-PROD000112,Electric Kettle 1.7L,Maison et Vie quotidienne,39.99,Standard,3,1.4
+B21-PROD000113,Robot Vacuum Cleaner,Technologie,249.99,Fragile,7,2.1
+B21-PROD000114,Smart Home Assistant Speaker,Technologie,129.99,Durable,6,2.0
+B21-PROD000115,Drone with Camera,Technologie,499.0,Fragile,9,2.7
+B21-PROD000116,Electric Toothbrush Pro,Maison et Vie quotidienne,89.99,Durable,4,1.5
+B21-PROD000117,Trail Hiking Backpack 30L,Loisirs et Transport,69.99,Durable,4,1.6
+B21-PROD000118,Bamboo Yoga Block Set,Divertissement et Culture,34.99,Durable,2,1.3
+B21-PROD000119,Electric Guitar Starter Kit,Divertissement et Culture,159.0,Fragile,5,1.9
+B21-PROD000120,Smart LED Strip Lights,Maison et Vie quotidienne,24.99,Durable,3,1.7
+PROD000101,Wireless Noise-Cancelling Headphones,Technologie,199.99,Fragile,8,2.2
+PROD000102,Smart LED TV 55 inches,Technologie,899.99,Fragile,9,2.5
+PROD000103,Electric Kettle with Fast Boil,Maison et Vie quotidienne,39.99,Standard,4,1.6
+PROD000104,Infrared Hair Dryer with Ionic,Mode et Bien-être,59.99,Fragile,5,1.8
+PROD000105,Yoga Mat Pro Premium,Maison et Vie quotidienne,29.99,Durable,2,1.4
+PROD000106,Smartphone Model X2024,Technologie,799.0,Fragile,10,2.8
+PROD000107,Noise-Cancelling Earbuds Compact,Technologie,149.99,Fragile,7,2.1
+PROD000108,Wireless Portable Speaker,Divertissement et Culture,84.99,Standard,6,1.9
+PROD000109,4K Action Camera,Loisirs et Transport,299.99,Fragile,8,2.4
+PROD000110,Smartwatch Fitness Pro,Technologie,199.0,Standard,6,2.0
+PROD000111,Ceramic Dinnerware Set 16pc,Maison et Vie quotidienne,89.99,Fragile,3,1.7
+PROD000112,Elegant Silk Scarf,Mode et Bien-être,45.0,Fragile,5,1.6
+PROD000113,Rechargeable Electric Toothbrush,Maison et Vie quotidienne,69.99,Standard,4,1.8
+PROD000114,Smart Home Hub Center,Technologie,129.99,Durable,6,2.2
+PROD000115,Couple's Fitness Kit,Mode et Bien-être,59.99,Durable,4,1.8
+PROD000116,Bamboo Cutting Board Set,Maison et Vie quotidienne,24.99,Durable,2,1.3
+PROD000117,Casual Denim Jacket,Mode et Bien-être,74.99,Standard,6,1.9
+PROD000118,Electric Scooter Mini,Loisirs et Transport,249.99,Durable,7,2.3
+PROD000119,Graphic Novel Collection Set,Divertissement et Culture,34.99,Standard,3,1.5
+PROD000120,Leather Wallet RFID Safe,Mode et Bien-être,54.99,Standard,5,1.7
+B23-PROD000001,Noise-Cancelling Wireless Headphones,Technologie,129.99,Durable,8,2.15
+B23-PROD000002,Smart LED TV 55 inches,Technologie,899.99,Fragile,9,2.6
+B23-PROD000003,Robot Vacuum Cleaner,Technologie,299.99,Durable,6,2.1
+B23-PROD000004,Wireless Speaker System,Divertissement et Culture,149.99,Standard,5,1.95
+B23-PROD000005,Espresso Coffee Maker,Maison et Vie quotidienne,89.99,Fragile,4,1.7
+B23-PROD000006,Ceramic Dinnerware Set (16pc),Maison et Vie quotidienne,39.99,Fragile,3,1.5
+B23-PROD000007,Yoga Mat with Alignment Guide,Mode et Bien-être,19.99,Durable,2,1.2
+B23-PROD000008,Smart Fitness Band,Mode et Bien-être,69.99,Durable,6,1.9
+B23-PROD000009,Leather Handbag,Mode et Bien-être,119.99,Fragile,7,2.05
+B23-PROD000010,Gourmet Cookware Set,Maison et Vie quotidienne,159.99,Fragile,5,1.8
+B23-PROD000011,Electric Kettle,Maison et Vie quotidienne,29.99,Standard,4,1.6
+B23-PROD000012,Smart Home Hub,Technologie,99.99,Durable,7,2.25
+B23-PROD000013,Children's Storybook Collection,Divertissement et Culture,24.99,Standard,2,1.4
+B23-PROD000014,Graphic Novel Bundle,Divertissement et Culture,34.99,Standard,3,1.5
+B23-PROD000015,Noise-Isolating Earbuds,Technologie,59.99,Fragile,7,2.0
+B23-PROD000016,Knit Winter Scarf,Mode et Bien-être,14.99,Standard,3,1.25
+B23-PROD000017,Premium Backpack,Loisirs et Transport,89.99,Durable,6,1.95
+B23-PROD000018,Drone with 4K Camera,Technologie,449.99,Fragile,8,2.55
+B23-PROD000019,Electric Guitar Starter Kit,Loisirs et Transport,199.99,Standard,5,2.2
+B23-PROD000020,Silicone Bakeware Set,Maison et Vie quotidienne,24.99,Standard,3,1.6
+PROD000001,Wireless Noise-Cancelling Headphones,Technologie,199.99,Fragile,9,2.5
+PROD000002,Smart Home Speaker with Assistant,Technologie,129.99,Standard,7,2.0
+PROD000003,4K Ultra HD Smart TV 55 inches,Technologie,899.0,Fragile,8,2.4
+PROD000004,Bluetooth Portable Speaker,Technologie,59.99,Standard,6,1.9
+PROD000005,E-reader with Carta Display,Divertissement et Culture,119.0,Standard,5,1.8
+PROD000006,Yoga Mat with Alignment Guides,Maison et Vie quotidienne,29.99,Durable,4,1.6
+PROD000007,Non-Stick Cookware Set (10 pieces),Maison et Vie quotidienne,89.99,Durable,3,1.7
+PROD000008,Scented Soy Candles Gift Set,Maison et Vie quotidienne,24.99,Fragile,2,1.5
+PROD000009,Elegant Silk Scarf,Mode et Bien-être,49.5,Fragile,6,1.9
+PROD000010,Athletic Running Shoes,Mode et Bien-être,74.99,Durable,5,2.1
+PROD000011,Yoga Block and Straps Set,Mode et Bien-être,19.99,Durable,4,1.6
+PROD000012,Electric Drill Kit,Loisirs et Transport,149.99,Durable,7,2.2
+PROD000013,Bicycle Helmet with MIPS,Loisirs et Transport,59.99,Durable,5,1.7
+PROD000014,Smartphone Protective Case Bundle,Technologie,24.99,Standard,8,2.3
+PROD000015,VR Headset with Controllers,Technologie,399.0,Fragile,9,2.6
+PROD000016,Compact Digital Camera,Technologie,349.99,Fragile,7,2.0
+PROD000017,Smart Vacuum Cleaner,Maison et Vie quotidienne,299.0,Durable,6,2.2
+PROD000018,Air Purifier with HEPA,Maison et Vie quotidienne,129.99,Standard,5,1.8
+PROD000019,Espresso Machine with Grinder,Maison et Vie quotidienne,219.0,Fragile,6,2.0
+PROD000020,Smart Lamp with Ambient Color,Maison et Vie quotidienne,39.99,Standard,3,1.6
