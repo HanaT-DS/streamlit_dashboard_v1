@@ -48,7 +48,18 @@ fi
 log_success "docker-compose.yml found"
 
 # ============================================
-# STEP 4: START APPLICATION
+# STEP 4: EXTRACT DATA FROM GOOGLE DRIVE
+# ============================================
+log_info "Extracting data from Google Drive..."
+bash scripts/data_getter.sh
+if [ $? -ne 0 ]; then
+    log_error "Failed to extract data"
+    exit 1
+fi
+log_success "Data extracted"
+
+# ============================================
+# STEP 5: START APPLICATION
 # ============================================
 log_success "✅ All checks passed!"
 log_info ""
