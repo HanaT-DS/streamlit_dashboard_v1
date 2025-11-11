@@ -47,7 +47,14 @@ download_from_gdrive() {
 # ============================================
 # Créer dossier data 
 # ============================================
-mkdir -p ./data
+log_info "Creating data directory..."
+
+if [ -d ./data ]; then
+    log_info "data directory already exists"
+else
+    mkdir -p ./data
+    log_success "Created data directory"
+fi
 
 # ============================================
 # Télécharger TOUS les fichiers
