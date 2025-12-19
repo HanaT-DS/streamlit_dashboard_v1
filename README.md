@@ -133,6 +133,15 @@ L'app utilise **8 fichiers CSV** téléchargés automatiquement:
 
 **Hana Talbi**
 - GitHub: [@HanaT-DS](https://github.com/HanaT-DS)
+  
+**Rayane Djema**
+- GitHub: [@djema-rayane](https://github.com/djema-rayane)
+
+**Aymen Ghoul**
+- GitHub: [@aymen9ghoul](https://github.com/aymen9ghoul)
+
+**Houssem Majed**
+
 
 
 ---
